@@ -285,6 +285,7 @@
 				D0FB35941BFA301800F67B72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -10,6 +10,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var redBall: UIImageView!
+    
+    @IBOutlet weak var blueBall: UIImageView!
+    
+    
+    @IBOutlet weak var hideRed: UIButton!
+    
+    @IBOutlet weak var hideBlue: UIButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -21,5 +31,16 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func hideBlueBall(sender: AnyObject) {blueBall.hidden=true
+    }
+
+
+    @IBAction func hideRedBall(sender: AnyObject) {redBall.hidden=true
+    }
+
+
+    @IBAction func resetImages(sender: AnyObject) {blueBall.hidden = false
+        redBall.hidden=false
+    }
 }
 
